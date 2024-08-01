@@ -14,7 +14,7 @@ public class GenerateBinaryUsingQueue {
             int i = 1;
             while (i++ <= n)
             {
-                
+
                 q.add(q.peek() + '0');
                 q.add(q.peek() + '1');
 
